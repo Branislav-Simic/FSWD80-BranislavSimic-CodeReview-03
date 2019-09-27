@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Insurance CR3</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
@@ -34,6 +34,33 @@
 
 		<!-- END NAVIGATION -->
 
+<script type="text/javascript"  src="javaScript/data_team.json"></script>
+
+
+<center>
+<script>
+
+	var i = 0
+    document.writeln("<table border='2'><tr>");
+    for (i = 0; i < teamMembers.length; i++) {
+        document.writeln("<tr><td><b>Name</b></td><td width=150 height=200>" + teamMembers[i].name + "</td>");
+
+ 
+        document.writeln("<td><b>Email</b></td><td width=150 height=200>" + teamMembers[i].email + "</td>");
+
+        document.writeln("<td><b>Image</b></td><td width=150 height=200 style='width:300px'>" + teamMembers[i].image  + "</td>");
+  
+
+        document.writeln("</tr>");
+         }
+                 document.writeln("</table>");
+</script>
+</center>
 	
+		<div class="container">
+		 	<div class="top-left">Home Team</div>
+		 	<div class="centered-right"> <img src="img/logo-inv.png"></div>
+		  	<div class="bottom-center">Branislav Simic - CodeFactory 2019</div>
+		</div>
 </body>
 </html>

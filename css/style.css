@@ -53,17 +53,14 @@ li a:hover:not(.active) {
 	margin-top: 20px;
 }
 
-main{
-  
-
-}
 
 .rel{
   position: relative;
+  top: -22px; 
 }
 .main{
   height: 500px;
-  background-image: url('img/traffic-332857_1920.jpg');
+  background-image: url('../img/traffic-332857_1920.jpg');
   background-size: 100% 100%;
   
 
@@ -107,16 +104,22 @@ main{
 .one{
   margin-top: 60px;
   width: 30%;
-  height: 280px; 
+  /* height: 280px;  */
   /* border: 1px solid red; */
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 2px 2px #888888;
 
 }
 
 .two{
   margin-top: 60px;
   width: 30%;
-  height: 280px; 
+  /* height: 280px; */ 
   /* border: 1px solid red; */
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 2px 2px #888888;
 }
 
 .what{
@@ -147,7 +150,6 @@ main{
   bottom: 165px;
   border: 2px solid grey;
   width: 70%;
-
   text-align: center;
   background-color: white;
   opacity: 0.6;
@@ -163,6 +165,10 @@ main{
   width: 200px;
   height: 25px;
   opacity: 0.9;
+}
+
+.green{
+  color: green;
 }
 
 .fl{
@@ -187,4 +193,28 @@ main{
 #print{
   color: #5EA15A;
   font-size: 25pt;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+  .banner {
+    display: none; }
+
+   .container {
+    text-align: center; }
+
+  .gr{
+    width: 100%;
+  }
+
+ /*  .main{
+    display: none;
+  }
+
+ .middle{
+  position: static;
+  bottom: 1px;
+ } */
+
+
 }

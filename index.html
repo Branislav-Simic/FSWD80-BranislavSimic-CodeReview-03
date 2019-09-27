@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Insurance CR3</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
@@ -52,7 +52,7 @@
 			starting with who and what is covered.</p>
 		</div>
 			
-			<div class="middle">
+			<div id="middle">
 				<div class="great">
 					<h1>Great coverage begins <br>with a custom quote</h1>
 				</div>
@@ -60,19 +60,19 @@
 				<div class="fl">
 					<div class="name">
 						<p>Your name: <br>
-						<input class="wi" type="text" name="lastname"><br></p>
+						<input id="nam" class="wi" type="text" name="Name"><br></p>
 					</div>
 
 					<div class="age">
 						<p>Age: <br>
-						<input class="wi" type="number" name="quantity" min="18" max="100" ></p>
+						<input id="ag" class="wi" type="number" name="quantity" min="18" max="100" ></p>
 					</div>
 				</div>
 
 				<div class="fl">
 					<div class="country">
 						<p>Your country: <br>
-						<select class="wi">
+						<select id="contry" class="wi">
 						<option value="Austria" selected="Austria">Austria</option>
 						<option value="Greece">Greece</option>
 					  	<option value="Hungary">Hungary</option>
@@ -81,16 +81,16 @@
 
 					<div class="hp">
 						<p>Horse power of your car: <br>
-						<input class="wi" type="number" name="quantity" min="0" max="1000" ></p>
+						<input id="hop" class="wi" type="number" name="quantity" min="0" max="1000" ></p>
 					</div>
 				</div>
 				
 				<div class="btn">
-					<button class="gr" type="button">Calculate</button>
+					<button id="butn" class="gr" type="button">Calculate</button>
 				</div>
 
 				<div id="print">
-					<p>Printed Calculation goes here</p>
+					<p id="show">Printed Calculation goes here</p>
 				</div>
 
 			</div>
@@ -108,9 +108,9 @@
 				<p>The coverage you need</p>
 				
 				<div class="li">
-					<p>&#10004; Bodily Injury Liability</p>
-					<p>&#10004; Property Damage</p>
-					<p>&#10004; Medical Payment</p>
+					<p><span class="green">&#10004;</span> Bodily Injury Liability</p>
+					<p><span class="green">&#10004;</span> Property Damage</p>
+					<p><span class="green">&#10004;</span> Medical Payment</p>
 				</div>
 				<hr>
 				<p><b>Benefits</b> <br> 12-months rate gurantee &#124; 24/7 customer service &#124; Lifetime Repair Guarantee</p>
@@ -121,9 +121,9 @@
 				<p>For more peace of mind</p>
 				
 				<div class="li">
-					<p>&#10004; Better Car Replacement</p>
-					<p>&#10004; Towing & Labor</p>
-					<p>&#10004; Rental Car Coverage</p>
+					<p><span class="green">&#10004;</span> Better Car Replacement</p>
+					<p><span class="green">&#10004;</span> Towing & Labor</p>
+					<p><span class="green">&#10004;</span> Rental Car Coverage</p>
 				</div>
 				<hr>
 				<p><b>Earned Benefits</b> <br> Accident Forgiveness&#124; New Car Replacement &#124; Lifetime Repair Guarantee&trade;</p>
@@ -138,7 +138,8 @@
 	
 
 
-<script src="insurance.js"></script>
+<script src="javaScript/insurance.js"></script>
+
 	
 </body>
 </html>
