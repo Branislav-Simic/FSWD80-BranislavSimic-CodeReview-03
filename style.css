@@ -58,8 +58,11 @@ main{
 
 }
 
+.rel{
+  position: relative;
+}
 .main{
-  height: 1000px;
+  height: 500px;
   background-image: url('img/traffic-332857_1920.jpg');
   background-size: 100% 100%;
   
@@ -106,6 +109,7 @@ main{
   width: 30%;
   height: 280px; 
   /* border: 1px solid red; */
+
 }
 
 .two{
@@ -135,4 +139,52 @@ main{
   text-align: center;
   margin-top: 3%; 
   color: white;
+}
+
+
+.middle{
+  position: absolute;
+  bottom: 160px;
+  border: 2px solid grey;
+  width: 70%;
+
+  text-align: center;
+  background-color: white;
+  opacity: 0.6;
+
+  margin-left: 15%;
+
+
+
+}
+
+.wi{
+  background-color: white;
+  width: 200px;
+  height: 25px;
+  opacity: 0.9;
+}
+
+.fl{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.gr{
+  width: 20%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+#print{
+  color: #5EA15A;
+  font-size: 25pt;
 }
