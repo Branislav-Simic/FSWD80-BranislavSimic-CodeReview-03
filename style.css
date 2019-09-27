@@ -1,0 +1,138 @@
+
+
+#logo {
+  background-color: #FFF3F3;
+}
+
+
+.header {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.nlogo {
+  padding-top: 7%;
+  margin-left: 0.1%; 
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8E1616;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #CECECE;
+}
+
+.h{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+main{
+  
+
+}
+
+.main{
+  height: 1000px;
+  background-image: url('img/traffic-332857_1920.jpg');
+  background-size: 100% 100%;
+  
+
+}
+
+.insur{
+  /* background-color: red; */
+  color: white;
+
+
+}
+
+.text{
+  background-color: lightgrey;
+  text-align: center;
+  height: 200px; 
+
+
+}
+
+.text h2{
+  font-size: 22pt;
+ margin: 0px;
+ padding-top: 50px;
+ margin-bottom: -10px;
+  /* border: 2px solid green; */
+}
+
+.text p{
+  /* border: 2px solid red; */
+  font-size: 16pt;
+  /* margin-top: -1px; */
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.one{
+  margin-top: 60px;
+  width: 30%;
+  height: 280px; 
+  /* border: 1px solid red; */
+}
+
+.two{
+  margin-top: 60px;
+  width: 30%;
+  height: 280px; 
+  /* border: 1px solid red; */
+}
+
+.what{
+  font-size: 15pt;
+  color: #BEDCF1;
+
+}
+
+.container {
+  margin-top: 80px;
+  background-color: black;
+  color: white;
+  height: 180px; }
+
+.centered-right {
+  text-align: right;
+  margin-top: 50px; }
+
+.bottom-center {
+  text-align: center;
+  margin-top: 3%; 
+  color: white;
+}
