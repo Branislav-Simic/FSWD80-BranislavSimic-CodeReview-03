@@ -109,8 +109,15 @@ li a:hover:not(.active) {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 5px 2px 2px #888888;
+  transition: transform .2s;
 
 }
+.one:hover {
+  transform: scale(1.2);
+}
+
+
+
 
 .two{
   margin-top: 60px;
@@ -120,7 +127,14 @@ li a:hover:not(.active) {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 5px 2px 2px #888888;
+  transition: transform .2s;
+
 }
+.two:hover {
+  transform: scale(1.2);
+}
+
+
 
 .what{
   font-size: 15pt;
@@ -151,20 +165,24 @@ li a:hover:not(.active) {
   border: 2px solid grey;
   width: 70%;
   text-align: center;
-  background-color: white;
-  opacity: 0.6;
+/*   background-color: white;
+  opacity: 0.7; */
+  background-color: rgba(0,0,0,0.5);
+
 
   margin-left: 15%;
-
-
-
 }
+
+.great{
+  color: #FFF3F3;
+}
+
 
 .wi{
   background-color: white;
   width: 200px;
   height: 25px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 
 .green{
@@ -175,7 +193,8 @@ li a:hover:not(.active) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: white;
+  color: white;
+  /* background-color: white; */
 }
 
 .gr{
