@@ -34,4 +34,3 @@ function calculateInsurance() {
 document.getElementById('show').innerHTML=ins;
 }
 
-
